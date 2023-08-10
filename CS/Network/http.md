@@ -1,5 +1,21 @@
 # HTTP 네트워크 통신
 
+<br>
+
+- [HTTP 네트워크 통신](#http-네트워크-통신)
+  - [HTTP 통신의 특징](#http-통신의-특징)
+    - [Connectionless: 비연결성](#connectionless-비연결성)
+    - [Stateless: 무상태](#stateless-무상태)
+    - [ATS: HTTP 통신의 특징으로 인한 애플의 정책](#ats-http-통신의-특징으로-인한-애플의-정책)
+  - [Request](#request)
+  - [API](#api)
+  - [Response](#response)
+    - [JSON과 XML](#json과-xml)
+    - [Status Code(상태 코드)](#status-code상태-코드)
+  - [iOS 네트워크 통신 라이브러리](#ios-네트워크-통신-라이브러리)
+
+<br>
+</br>
 
 네트워크 통신의 가장 basic한 내용에 대한 이해부터 해보려고 한다. 그중에서 HTTP 통신에 대해 알아보자.
 
