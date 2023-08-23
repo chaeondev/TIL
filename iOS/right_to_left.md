@@ -9,7 +9,7 @@
 
 * layout을 잡기위해 left, right 키워드가 있음에도 불구하고, trailing, leading 키워드를 사용하는 이유는 RTL을 지원하기 위해서이다.
 * left, right로 layout을 잡으면, 자동적으로 RTL, LTR 전환을 지원하지 않는다.
-=> 따라서 현지화에 대한 대응, 국가별로 다른 언어를 지원하기 위해서 trailing, leading을 사용하는 것!
+=> 따라서 현지화에 대한 대응, 국가별로 다른 언어를 지원하기 위해서 trailing, leading을 사용하는 것! => Localization 대응
 
 ## 3. 예시
 
